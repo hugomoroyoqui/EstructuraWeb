@@ -1,4 +1,4 @@
-class Collection {
+class API {
   constructor(){
     //this.users = "Users";
   }

@@ -20,8 +20,8 @@ class Router {
       break;
 
       case "home":
-        $this->viewsManager->loadHome();
-        break;
+      $this->viewsManager->loadHome();
+      break;
       
       default:
       $this->viewsManager->loadLogin();

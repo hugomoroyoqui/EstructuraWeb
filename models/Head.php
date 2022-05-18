@@ -3,7 +3,7 @@
 */
 class Head {
   // Globar parameters
-  public $root = 'http://localhost/pruebaweb/'; //Uncomment for local development
+  public $root = 'http://localhost/EstructuraWeb/'; //Uncomment for local development
   public $title = "APP";
   // Constructor takes "title" as parameter
   function __construct()
@@ -31,7 +31,6 @@ class Head {
     <!-- External libraries -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" crossorigin="anonymous"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -43,8 +42,8 @@ class Head {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
     <!-- Firebase libraries -->
-    <script defer src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
-    <script defer src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
 
 
     <!-- Local libraries | Title -->
@@ -52,6 +51,7 @@ class Head {
     <link href="' . $this->root . '/res/css/main.css" rel="stylesheet" type="text/css" media="all"/>
     <script src="' . $this->root . '/scripts/firebase_init.js"></script>
     <script src="' . $this->root . '/classes/FirebaseSchema.js"></script>
+    <script src="' . $this->root . '/classes/APISchema.js"></script>
     <script src="' . $this->root . '/res/assets/canvasjs.min.js"></script>
     <script src="' . $this->root . '/res/assets/jquery.canvasjs.min.js"></script>
 
