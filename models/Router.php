@@ -22,6 +22,46 @@ class Router {
       case "home":
       $this->viewsManager->loadHome();
       break;
+
+      case "coaching":
+      $this->viewsManager->loadCoaching();
+      break;
+
+      case "company":
+      $this->viewsManager->loadCompany();
+      break;
+
+      case "components":
+      $this->viewsManager->loadComponents();
+      break;
+
+      case "contact":
+      $this->viewsManager->loadContact();
+      break;
+
+      case "design":
+      $this->viewsManager->loadDesign();
+      break;
+
+      case "development":
+      $this->viewsManager->loadDevelopment();
+      break;
+
+      case "orders":
+      $this->viewsManager->loadOrders();
+      break;
+
+      case "services":
+      $this->viewsManager->loadServices();
+      break;
+
+      case "stock":
+      $this->viewsManager->loadStock();
+      break;
+
+      case "support":
+      $this->viewsManager->loadSupport();
+      break;
       
       default:
       $this->viewsManager->loadLogin();
