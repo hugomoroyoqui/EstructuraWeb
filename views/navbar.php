@@ -1,3 +1,7 @@
+<?php 
+  $view = $_GET['view'];
+?>
+
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="?view=services">Todos</a></li>
@@ -20,5 +24,31 @@
     </ul>
   </div>
 </nav>
+
+ <nav>
+  <div class="nav-wrapper">
+
+    <!-- Home -->
+    <div class="col s12" id="breadcrumbHome" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+    </div>
+
+    <!-- Services -->
+    <div class="col s12" id="breadcrumbServices" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+    </div>
+
+    <!-- Design -->
+    <div class="col s12" id="breadcrumbDesign" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+      <a href="?view=design" class="breadcrumb">Diseño</a>
+    </div>
+
+  </div>
+</nav>
+
+<h5 class="hiddenView" id="<?php if($view) echo $view ?>"></h5>
 
 <script src="./scripts/navbar.js?v1.0.0"></script>
