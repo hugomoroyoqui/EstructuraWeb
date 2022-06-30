@@ -25,7 +25,7 @@
   </div>
 </nav>
 
- <nav>
+ <nav class="black">
   <div class="nav-wrapper">
 
     <!-- Home -->
@@ -44,6 +44,58 @@
       <a href="?view=home" class="breadcrumb">Home</a>
       <a href="?view=services" class="breadcrumb">Servicios</a>
       <a href="?view=design" class="breadcrumb">Diseño</a>
+    </div>
+
+    <!-- Coaching -->
+    <div class="col s12" id="breadcrumbCoaching" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+      <a href="?view=coaching" class="breadcrumb">Coaching</a>
+    </div>
+
+    <!-- Company -->
+    <div class="col s12" id="breadcrumbCompany" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=company" class="breadcrumb">Empresa</a>
+    </div>
+
+    <!-- Components -->
+    <div class="col s12" id="breadcrumbComponents" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+      <a href="?view=components" class="breadcrumb">Componentes</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="col s12" id="breadcrumbContact" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=contact" class="breadcrumb">Contacto</a>
+    </div>
+
+    <!-- Development -->
+    <div class="col s12" id="breadcrumbDevelopment" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+      <a href="?view=development" class="breadcrumb">Desarrollo</a>
+    </div>
+
+    <!-- Orders -->
+    <div class="col s12" id="breadcrumbOrders" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=orders" class="breadcrumb">Pedido</a>
+    </div>
+
+    <!-- Stock -->
+    <div class="col s12" id="breadcrumbStock" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=stock" class="breadcrumb">Stock</a>
+    </div>
+
+    <!-- Support -->
+    <div class="col s12" id="breadcrumbSupport" style="display: none;">
+      <a href="?view=home" class="breadcrumb">Home</a>
+      <a href="?view=services" class="breadcrumb">Servicios</a>
+      <a href="?view=support" class="breadcrumb">Soporte</a>
     </div>
 
   </div>

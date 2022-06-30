@@ -41,11 +41,11 @@ class ViewsManager
   }
 
   function generateAdminBody() {
-    echo '<body style="background-color: #EEEEEE;">';
+    echo '<body style="background-color: #000000;">';
     echo '<header>';
     include './views/navbar.php';
     echo '</header>';
-    echo '<main style="background-color: #EEEEEE; ">';
+    echo '<main style="background-color: #000000; ">';
     echo '<div class="container">';
     echo '<div id="main_container" class="col s12">';
     include './views/' . $this->fileName;
