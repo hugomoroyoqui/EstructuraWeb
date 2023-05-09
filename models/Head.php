@@ -3,8 +3,7 @@
 */
 class Head {
   // Globar parameters
-  public $root = 'http://localhost/EstructuraWeb/'; //Uncomment for local development
-  //public $root = 'https://hugomoroyoqui2.000webhostapp.com/';
+  public $root = 'http://localhost/EstructuraWeb'; //Uncomment for local development
   public $title = "APP";
   // Constructor takes "title" as parameter
   function __construct()
@@ -51,8 +50,8 @@ class Head {
     <title>' . $this->title . '</title>
     <link href="' . $this->root . '/res/css/main.css" rel="stylesheet" type="text/css" media="all"/>
     <script src="' . $this->root . '/scripts/firebase_init.js"></script>
-    <script src="' . $this->root . '/classes/FirebaseSchema.js"></script>
-    <script src="' . $this->root . '/classes/APISchema.js"></script>
+    <script src="' . $this->root . '/classes/FirebaseCollections.js"></script>
+    <script src="' . $this->root . '/classes/APISchemas.js"></script>
     <script src="' . $this->root . '/res/assets/canvasjs.min.js"></script>
     <script src="' . $this->root . '/res/assets/jquery.canvasjs.min.js"></script>
 
